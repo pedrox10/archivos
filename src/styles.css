@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+.button {
+    text-transform: capitalize !important;
+}
+
+body {
+    height: 100vh;
+    margin: 15px;
+}
+
+.navbar-item img{
+    max-height: none !important;
+    height: 75px;
+}
+
+.logo {
+    padding: 0rem 0rem !important;
+}
+
+.principal {
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: rgba(225, 230, 228, 0.829);
+}   
