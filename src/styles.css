@@ -12,7 +12,7 @@ body {
     max-height: none !important;
     height: 75px;
 }
-
+  
 .logo {
     padding: 0rem 0rem !important;
 }
@@ -23,4 +23,9 @@ body {
 
 .sidebar {
     background-color: rgba(225, 230, 228, 0.829);
-}   
+}
+
+.cell {
+    background-color: rgb(186, 245, 255) ;
+    min-height: 50px;
+}
