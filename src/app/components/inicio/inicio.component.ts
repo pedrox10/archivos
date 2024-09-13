@@ -10,4 +10,15 @@ import { RouterOutlet } from '@angular/router';
 })
 export class InicioComponent {
 
+  public test() {
+    if(document.getElementById("grid").classList[1] != null) {
+      document.getElementById("grid").classList.remove("has-4-cols");
+      document.getElementById("grid").classList.add("has-3-cols")
+    alert(document.getElementById("grid").classList[0])
+    }
+  }
+
+  public dropdown() {
+    document.getElementById("dropdown").classList.add("is-active");
+  }
 }
