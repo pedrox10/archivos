@@ -1,0 +1,7 @@
+export class Bloque {
+    _id?: number;
+
+    constructor() {
+        
+    }
+}

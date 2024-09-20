@@ -1,0 +1,11 @@
+
+export class Estante {
+    _id?: number;
+    nombre: string;
+    filas: number;
+    columnas: number;
+
+    constructor() {
+        
+    }
+} 

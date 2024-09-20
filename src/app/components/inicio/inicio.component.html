@@ -1,6 +1,6 @@
 <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-      <a class="navbar-item logo" href="https://bulma.io">
+      <a class="navbar-item logo" href="#">
           <img src="../../../assets/gams.png">
       </a>
   </div>
@@ -13,7 +13,7 @@
       </p>
       <ul class="menu-list">
         <li><a>Buscar Carpetas</a></li>
-        <li><a>Movimientos</a></li>
+        <li class="animation"><a>Movimientos</a></li>
       </ul>
       <p class="menu-label">
         Administración
@@ -27,39 +27,6 @@
   </div>
   
   <div class="column">
-    <div class="block">
-      <div id="grid" class="fixed-grid has-4-cols">
-        <div class="grid" style="max-width: 300px;">
-          <div class="cell">1</div>
-          <div class="cell is-col-span-2">2</div>
-          <div class="cell is-centered">3</div>
-          <div class="cell">4</div>
-          <div class="cell">5</div>
-          <div class="cell">6</div>
-          <div class="cell">7</div>
-        </div>
-      </div>
-    </div>
-    <button class="button is-primary is-rounded" (click)="test()">Boton</button>
-    <div id="dropdown" class="dropdown">
-      <div class="dropdown-trigger">
-        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" (click)="dropdown()">
-          <span>Menu contextual</span>
-          <span class="icon is-small">
-            <i class="fas fa-angle-down" aria-hidden="true"></i>
-          </span>
-        </button>
-      </div>
-      <div class="dropdown-menu" id="dropdown-menu" role="menu">
-        <div class="dropdown-content">
-          <a href="#" class="dropdown-item">
-            Dropdown item
-          </a>
-          <a class="dropdown-item">
-            Other
-          </a>
-        </div>
-      </div>
-    </div>
+    <router-outlet></router-outlet>
   </div>
 </div>
