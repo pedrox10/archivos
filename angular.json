@@ -26,7 +26,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";,
+              "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css",
               "node_modules/bulmaswatch/materia/bulmaswatch.min.css",
               "https://unpkg.com/@fortawesome/fontawesome-free@5.13.0/css/all.css"
             ],
