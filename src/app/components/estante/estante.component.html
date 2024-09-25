@@ -1,1 +1,10 @@
-<p>estante works!</p>
+<div class="block mb-2">
+    <h1 class="titulo">{{nombre}}</h1>
+    <div id="grid" class="fixed-grid has-{{columnas}}-cols">
+      <div class="grid">
+        @for (item of celdas; track $index) {
+          <div class="cell">{{ item.fila + " " + item.columna }}</div>
+        }
+      </div>
+    </div>
+</div>

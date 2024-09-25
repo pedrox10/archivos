@@ -1,13 +1,13 @@
+import { Celda } from "./celda";
+
 export class Estante {
-    _id: number;
+    _id?: number;
     nombre: string;
-    num_filas: number;
-    num_columnas: Number;
+    filas: number;
+    columnas: number;
+    celdas: Celda[];
 
-    constructor(nombre: string, num_filas: number, num_columnas: number ) {
-        this.nombre = nombre;
-        this.num_filas = num_filas;
-        this.num_columnas = num_columnas;
-
+    constructor() {
+        
     }
-}
+} 
